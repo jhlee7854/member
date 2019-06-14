@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: member
-          image: gcr.io/jonghak-edu01/member:v7
+          image: gcr.io/jonghak-edu01/member:latest
           ports:
             - containerPort: 8080
           env:
